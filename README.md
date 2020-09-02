@@ -1,11 +1,13 @@
-# My Personal Dotfiles
+# Dotfiles for WSL Ubuntu 20.04
+
+Fairly simple, nothing special.
 
 ## GNU Stow
 ```Shell
 # Create a link
 cd ~/.dotfiles
-stow neovim
+stow Zsh
 
 # Remove a link
-stow -D neovim
+stow -D Zsh
 ```
