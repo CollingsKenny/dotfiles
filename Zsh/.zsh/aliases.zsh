@@ -6,5 +6,5 @@ alias sh='/bin/bash'
 if [ "$(command -v exa)" ]; then
     unalias -m 'ls'
     alias ls='exa -G  --color auto --icons -s type'
-    alias la='exa -l --color always --icons -a -s type'
+    alias ll='exa -l --color always --icons -a -s type'
 fi
