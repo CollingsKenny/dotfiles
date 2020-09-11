@@ -16,3 +16,6 @@ path+=("$HOME/.cargo/bin")
 ### NODE ###
 export N_PREFIX="$HOME/.n"
 path+=("$N_PREFIX/bin")
+
+path+=("/mnt/c/Users/kenco/AppData/Local/Programs/Microsoft VS Code/bin/")
+path+=("/mnt/c/Windows/System32")
