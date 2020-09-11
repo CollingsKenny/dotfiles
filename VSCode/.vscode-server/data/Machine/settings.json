@@ -1,6 +1,13 @@
 {
-    "editor.fontFamily": "Cascadia Code",
-    "editor.lineHeight": 24,
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "\"CaskaydiaCove NF\"",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "\"CaskaydiaCove NF\"",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.codeActionsOnSave": [
+      "source.addMissingImports",
+      "source.organizeImports"
+    ]
+  }
 }
